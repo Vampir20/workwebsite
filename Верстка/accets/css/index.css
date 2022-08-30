@@ -258,180 +258,69 @@
   color: #E51C23;
 }
 
-.upper-main{
-  display: inline-block;
-  width: 60%;
-}
-.main{
-  display: block;
-  text-align:center;
-  display: block;
-  margin-left: 7%;
-  margin-top: 3%;
-  padding-bottom: 5%;
-  background-color: white;
-  height: 70%;
-  width: 40%;
-  -webkit-box-shadow: 5px -2px 21px 1px #000000; 
-  box-shadow: 5px -2px 21px 1px #000000;
+.description{
+  width: 50%;
 }
 
-.main button{
-  height: 50px;
-  width: 150px;
-  border: 10px solid rgb(255, 0, 200);
-  color:  rgb(255, 0, 200);
-  margin: 0 auto;
-  background: none;
-  outline: none;
-  border: none;
-  border-radius: 10px;
+.description h1{
+  margin-left: 15% ;
 }
 
-.main-right{
-  float: right;
-  float: top;
-  width: 40%;
-}
-
-.main .all{
-  margin-top: 5px;
-  height: 50px;
-  width: 70px;
-  border: 1px solid pink;
-  float: left;
-}
-
-.img{
-  height: 70%;
-  width: 30%;
-}
-
-.img img{
-  padding: 15px 0;
-  align-content: center;
+.description-iphone{
   display: flex;
-}
-
-.img-one{
-  padding-left: 25%;
-}
-
-.img-one img{
-  float: left;
-  height: 30%;
-  width: 70%;
-  margin-top: -70%;
-}
-
-.page{
-  margin-top: 2%;
-  margin-left: 8%;
-}
-
-
-.main-right{
-  margin-top: 3%;
-  margin-left: 3%;
-}
-
-.rate{
   width: 100%;
+  background-color: rgb(193, 193, 193);
+  display: inline-block;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.description-iphone img{
+  margin-top: 1%;
 }
 
-.rate img{
-  padding: 5px;
-  margin-top: 10px;
-  height: 30px;
-  width: 30px;
+.description-iphone p{
+  margin-top: 2.5%;
+  float: right;
+  margin-right: 70%;
 }
 
-.color-storage{
-  margin-top: 10%;
-}
-
-.color{
+.description-iphone a{
   display: inline;
+  float: right;
+  width: 5%;
+  margin-right: 30%;
+  margin-top: -6%;
+  outline: none;
+  border: 1px solid red;
+  padding: 0 1%;
+  background-color: none;
 }
 
-.storage{
+
+.di-button{
+  margin-top: 1%;
+  margin-left: 10%;
+  height: 20%;
+  width: 30%;
+  border: 1px solid red;
+  outline:none;
+  background: none;
+}
+
+.description-right{
+  width: 25%;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.78); 
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.78);  
   float: top;
   float: right;
   margin-right: 10%;
+  margin-top: -35%;
 }
 
-.storage button{
+#15{
+  width: 40%;
+  text-align: center;
+  background-color: red;
   outline: none;
   border: none;
-  border-radius: 5px;
-  height: 20%;
-  width: 20%;
-  margin-left: 2%;
-}
-
-#one, #two, #three, #four, #five{
-  margin-top: 2%;
-}
-#one{
-  height: 25px;
-  width: 25px;
-  border: none;
-  outline: none;
-  background: darkgrey;
-}
-#two{
-  height: 25px;
-  width: 25px;
-  border: none;
-  outline: none;
-  background: lightgreen;
-}
-#three{
-  height: 25px;
-  width: 25px;
-  border: none;
-  outline: none;
-  background: blue;
-}
-#four{
-  height: 25px;
-  width: 25px;
-  border: none;
-  outline: none;
-  background: violet;
-}
-
-#five{
-  height: 25px;
-  width: 25px;
-  border: none;
-  outline: none;
-  background-color: lightpink;
-}
-
-.get{
-  margin-top: 10%;
-}
-
-.get a{
-  height: 100px;
-  width: 100px;
-}
-
-.get button{
-  padding: 10px;
-  background: none;
-  border: 1px solid red;
-  outline: none;
-  width: 50%;
-}
-.get button img{
-  height: 50px;
-  width: 75px;
-  object-fit: contain;
-  float: left;
-}
-.get button p {
-  float: button;
-  float: left;
 }
