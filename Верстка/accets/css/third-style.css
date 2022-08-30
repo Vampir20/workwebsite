@@ -259,172 +259,43 @@
   }
 
   .wrapper-main .main{
-    width: 66%;
+    width: 70%;
     margin-top: 2%;
     margin-left: 10%;
   }
-.main{
-    width: 50%;
-}
-  .upper-info{
-    width: 80%;
-    -webkit-box-shadow: 10px 5px 18px 5px rgba(0,0,0,0.75); 
-    box-shadow: 10px 5px 18px 5px rgba(0,0,0,0.75);
-  }
 
-  .upper-info img{
-    margin-top: 3%;
-    padding: 10px;
-    vertical-align: center;
-    height: 70px;
-    width: 70px;
-  }
-
-  .upper-info h3{
-    float: top;
-    float: right;
-    margin-right: 60%;
-  }
-
-  .upper-info p{
-    display: inline;
-    float: top;
-    margin-left: 15%;
-    margin-bottom: 20%;
-  }
-
-.upper-info{
-    display: block;
-}
-
-#btn1{
-    color: white;
-    float: top;
-    float: right;
-    outline: none;
-    border: none;
-    border-radius: 20px;
-    height: 70px;
-    width: 150px;
-    background-color: red;
-}
-
-#btn2{
-    background: none;
-    color: red;
-    float: top;
-    float: right;
-    outline: none;
-    border: 1px solid red;
-    border-radius: 20px;
-    height: 70px;
-    width: 150px;
-}
-
-.first{
-    padding: 20px;
-    width: 80%;
-    margin-top: 5%;
-    background: rgb(232, 232, 232);
-}
-
-.first input{
-    color: black;
-    border: 1px solid black;
-    outline:none;
-    background: none;
-    border-radius: 5px;
-    height: 50px;
-    width: 49%;
-}
-
-.nafa{
-    color: black;
-    padding-top: 7px;
-    padding-bottom: 4%;
-}
-
-.second{
-    display: block;
-    display: flex;
-    padding: 20px;
-    height:100%;
-    width: 80%;
-    margin-top: 5%;
-    background: rgb(232, 232, 232);
-}
-
-.second select{
-    height: 50px;
-    width: 230px;
-    outline: none;
-    background: none;
-    border-radius: 10px;
-}
-.second .deliv{
-    margin-top: 10%;
-    height: 0;
-}
-
-.deliv{
-    padding-left: 20%;
+  .main-wrapper p{
+    margin-top: 2%;
     margin-left: 10%;
+  }
+.done{
+  padding-bottom: 200px;
 }
+  .done img{
+    margin-top: 10%;
+    margin-left: 43%;
+    height: 200px;
+    width: 200px;
+  }
 
-.second .deliv p{
-    float: right;
-    padding-right: 20px;
-}
+  .done h1 {
+    text-align: center;
+    font-size: 50px;
+  }
 
-.nafaa{
-    margin: 0 auto;
-    float: left;
-    margin-top: 20%;
-}
+  .done p{
+    margin-left: 40%;
+  }
 
-.nafaa input{
-    float: left;
-    color: black;
-    border: 1px solid black;
-    outline:none;
-    background: none;
-    border-radius: 5px;
+  .done button{
     height: 50px;
-    margin-right: 20px;
-    padding-right: 20px;
-}
-
-.second-info {
-    display: inline;
-}
-
-.third{
-    display: block;
-    display: flex;
-    padding: 20px;
-    height:100%;
-    width: 80%;
-    margin-top: 5%;
-    background: rgb(232, 232, 232);
-}
-
-.third select{
-    height: 100px;
-    width: 150px;
-    border-radius:20px;
+    width: 400px;
+    margin-top: 2%;
+    margin-left: 39%;
+    text-align: center;
     outline: none;
     border: none;
-    background: white;
+    color: white;
+    background: red;
+  }
 
-}
-
-.third .nafa-third{
-    margin-top: 10%;
-    margin: 10% auto;
-}
-
-.right-field{
-  float: top;
-  float: right;
-  margin-left: 100%;
-}
