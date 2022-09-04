@@ -269,9 +269,12 @@
     margin-left: 10%;
   }
 .done{
-  padding-bottom: 200px;
+  padding-bottom: 20%;
+  display: block;
+  flex-direction: column;
 }
-  .done img{
+
+  .done #img-phone{
     margin-top: 10%;
     margin-left: 43%;
     height: 200px;
@@ -298,4 +301,17 @@
     color: white;
     background: red;
   }
+
+  #img-phone{
+    float: top;
+  }
+  
+  #img-one{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin-top: -5%;
+    margin-left: 38%;
+  }
+  
 
